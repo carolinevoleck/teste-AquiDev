@@ -1,5 +1,10 @@
+import { FeedContainerStyled } from "./styled";
+
+
 export const FeedPage = () => {
     return(
-        <h1>Feed</h1>
+        <FeedContainerStyled>
+
+        </FeedContainerStyled>
     )
 }
