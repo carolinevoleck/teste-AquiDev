@@ -9,7 +9,7 @@ export function Sidebar() {
     return (
         <div className="main">
             <div className="logo-title">
-                <img src={logoIMG} alt='Login icon by Icons8'></img> gBeer
+                <img src={logoIMG} alt='Login icon by Icons8'></img> Beer
             </div>
 
             <div className="menu">
