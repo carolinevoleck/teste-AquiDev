@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.dashboard{  
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: var(--rgba);
+    grid-template-columns: 11rem auto 20rem;
+}

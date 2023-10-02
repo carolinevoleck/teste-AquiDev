@@ -1,12 +1,15 @@
-import { Router } from './routes';
-import { ChakraProvider } from '@chakra-ui/react';
-import { theme } from './styles';
+import React from 'react';
+import { Login } from './Components/login'
+import { Dashboard } from './Components/dashboard'
+import { Link, Route } from 'react-router-dom';
+import './Styles/global.css'
 
-const App = () => {
-  return(
-    <ChakraProvider theme={theme}>
-      <Router/>
-    </ChakraProvider>
+function App() {
+  return (
+    <>
+      <Route exact path="/" component={<Login />} />
+      <Route exact path="/dashboard" component={<Dashboard />} />
+    </>
   );
 }
 
