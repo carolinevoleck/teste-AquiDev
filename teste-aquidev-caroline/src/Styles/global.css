@@ -30,12 +30,12 @@ span {
 }
 
 :root {
-    --background-main: linear-gradient(#32A891, #7AB4C0, #FFFFFF);;
-    --main: #32A891;
+    --background-main: linear-gradient(#fee611, #fee611, #FFFFFF);;
+    --main: #fee611;
     --primary: #262626;
     --secondary: #8e8e8e;
     --tertiary: #FFFFFF;
-    --quartary: #7AB4C0;
+    --quartary: #fee611;
     --border: #dbdbdb;
     --border-secondary: #efefef;
     --rgba: rgba(255, 255, 255, 0.54)
