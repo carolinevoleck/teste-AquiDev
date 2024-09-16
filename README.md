@@ -1,3 +1,8 @@
+![Texto alternativo](![Captura de tela 2023-10-02 161808](https://github.com/carolinevoleck/teste-AquiDev/assets/116590798/caf7cb75-6ba4-48ea-8c84-33629269155b)
+)
+email acesso: user@example.com
+senha para acesso: password
+
 O teste consiste em criar uma aplicação que expõe uma API REST de um CRUD de produtos e autenticação, e uma aplicação web contendo uma interface para login e acesso a dados de uma API externa. 
 
 Depois de logado, o usuário da aplicação web deve poder acessar os dados da [Punk API v2](https://punkapi.com/). 
